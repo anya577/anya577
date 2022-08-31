@@ -80,8 +80,6 @@ if(Object.keys(error).length==0){
 
 });
 
-
-
 let error={
     username:"username value must be more then 5 characters",
     gender:"select your gender",
@@ -89,8 +87,6 @@ let error={
     password2: "passwords do not match"
 
 }
-
-
 
     let passwordShow = document.getElementById("showhide");
 let icon = document.getElementById("toggleIcon");
@@ -107,8 +103,6 @@ icon.addEventListener("click", function () {
 
 
 });
-
-
 
 function validationEmail() {
     let form = document.getElementById("form");
@@ -137,8 +131,6 @@ function validationEmail() {
     }
   }
   
-
-
 let scroll=document.getElementById('top');
 scroll.addEventListener('click', function()
 {
